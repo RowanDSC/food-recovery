@@ -1,0 +1,21 @@
+{
+  "name": "@dsc/server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "ts-node-dev": "^1.0.0-pre.57",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
