@@ -2,10 +2,12 @@
   "name": "@dsc/server",
   "version": "0.0.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "dist/index",
+  "typings": "dist/index",
+
   "scripts": {
     "start": "node dist/index.js",
-    "build": "rimraf dist && tsc",
+    "build": "rimraf dist && tsc -p tsconfig.build.json",
     "dev": "ts-node-dev src/index.ts"
   },
   "author": "",

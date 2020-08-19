@@ -5,16 +5,12 @@
   "author": "Evan Pierce <mrthinger@gmail.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/common.js",
-  "typings": "lib/common.d.ts",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
+  "main": "dist/index",
+  "types": "dist/index",
   "files": [
-    "lib"
+    "dist"
   ],
   "scripts": {
-    "build": "rimraf lib && tsc"
+    "build": "rimraf dist && tsc -p tsconfig.build.json"
   }
 }
