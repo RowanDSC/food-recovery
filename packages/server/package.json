@@ -7,8 +7,9 @@
 
   "scripts": {
     "start": "node dist/index.js",
-    "build": "rimraf dist && tsc -p tsconfig.build.json",
-    "dev": "ts-node-dev src/index.ts"
+    "clean": "rimraf dist",
+    "build": "npm run -s clean && tsc -p tsconfig.build.json",
+    "dev": "ts-node-dev --deps --respawn src/index.ts"
   },
   "author": "",
   "license": "ISC",

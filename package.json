@@ -1,6 +1,14 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "start": "lerna run start",
+    "build": "lerna run build",
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna run --parallel clean",
+    "release": "lerna publish",
+    "dev": "lerna run --parallel dev"
+  },
   "devDependencies": {
     "@types/node": "^14.6.0",
     "lerna": "^3.22.1",
