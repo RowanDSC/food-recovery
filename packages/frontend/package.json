@@ -1,5 +1,5 @@
 {
-  "name": "@dsc/webapp",
+  "name": "@food-waste/frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,8 @@
     "next": "9.5.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "@dsc/common": "^0.0.0"
+    "@food-waste/common": "^0.0.0",
+    "@food-waste/components": "^0.0.0"
   },
   "devDependencies": {
     "@types/react": "^16.9.46"

@@ -1,0 +1,12 @@
+FROM node
+
+#BUILD THE APP
+
+
+FROM nginx
+
+#SERVE THE APP
+
+
+
+#-> frontend image -> push to registry

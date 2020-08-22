@@ -1,3 +1,3 @@
 export const commonHello = () => {
-    return 'Hello from common13!'
+  return "Hello from common18!";
 };

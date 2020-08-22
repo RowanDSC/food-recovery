@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@dsc/*": ["packages/*/src"]
+      "@food-waste/*": ["packages/*/src"]
     }
-  },
- }
+  }
+}

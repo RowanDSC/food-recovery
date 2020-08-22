@@ -1,5 +1,5 @@
 {
-  "name": "@food-waste/common",
+  "name": "@food-waste/components",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Evan Pierce <mrthinger@gmail.com>",
@@ -14,5 +14,9 @@
     "clean": "rimraf dist",
     "build": "npm run -s clean && tsc -p tsconfig.build.json",
     "dev": "tsc --watch -p tsconfig.build.json"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.46",
+    "react": "^16.13.1"
   }
 }
