@@ -21,5 +21,12 @@
     "supertest": "^4.0.2",
     "ts-jest": "^26.2.0",
     "typescript": "^3.9.7"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "isolatedModules": false
+      }
+    }
   }
 }

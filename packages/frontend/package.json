@@ -19,6 +19,11 @@
     "@types/react": "^16.9.46"
   },
   "jest": {
-    "preset": "ts-jest"
+    "preset": "ts-jest",
+    "globals": {
+      "ts-jest": {
+        "isolatedModules": false
+      }
+    }
   }
 }
