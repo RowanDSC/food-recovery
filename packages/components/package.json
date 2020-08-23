@@ -11,6 +11,7 @@
     "dist"
   ],
   "scripts": {
+    "test": "jest",
     "clean": "rimraf dist",
     "build": "npm run -s clean && tsc -p tsconfig.build.json",
     "dev": "tsc --watch -p tsconfig.build.json"

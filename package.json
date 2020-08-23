@@ -2,6 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
+    "test": "lerna run --parallel test",
     "start": "lerna run start",
     "build": "lerna run build",
     "bootstrap": "lerna bootstrap",
@@ -11,9 +12,14 @@
     "postinstall": "npm run bootstrap && npm run build"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.10",
     "@types/node": "^14.6.0",
+    "@types/supertest": "^2.0.10",
+    "jest": "^26.4.2",
     "lerna": "^3.22.1",
-    "typescript": "^3.9.7",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "supertest": "^4.0.2",
+    "ts-jest": "^26.2.0",
+    "typescript": "^3.9.7"
   }
 }
