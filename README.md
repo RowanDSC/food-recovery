@@ -1,4 +1,5 @@
-# Food Recovery PWA
+# Food Recovery PWA  
+[![RowanDSC](https://circleci.com/gh/RowanDSC/food-recovery.svg?style=svg)](https://app.circleci.com/pipelines/github/RowanDSC/food-recovery)
 
 ### Start:
 
