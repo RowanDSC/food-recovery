@@ -11,7 +11,7 @@
     "sourceMap": true,
     "lib": ["es6"],
     "esModuleInterop": true,
-    "isolatedModules": false
+    "jsx": "react"
   },
   "exclude": ["node_modules", "**/*.spec.ts"]
 }
