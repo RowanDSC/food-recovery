@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig.build.json",
   "compilerOptions": {
+    "isolatedModules": false,
     "baseUrl": ".",
     "paths": {
       "@food-waste/*": ["packages/*/src"]
