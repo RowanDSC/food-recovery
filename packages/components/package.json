@@ -19,5 +19,8 @@
   "dependencies": {
     "@types/react": "^16.9.46",
     "react": "^16.13.1"
+  },
+  "jest": {
+    "preset": "ts-jest"
   }
 }
