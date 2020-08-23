@@ -9,7 +9,7 @@
     "clean": "lerna run --parallel clean",
     "release": "lerna publish",
     "dev": "lerna run --parallel dev",
-    "postinstall": "npm run bootstrap"
+    "postinstall": "npm run bootstrap && npm run build"
   },
   "devDependencies": {
     "@types/jest": "^26.0.10",
