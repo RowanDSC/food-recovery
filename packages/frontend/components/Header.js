@@ -1,43 +1,27 @@
-import React from 'react'
-import {makeStyles} from "@material-ui/core/styles"
-import {
-    Typography,
-    Avatar, 
-    Grid,
-    Box
-}from "@material-ui/core";
-import Typed from "react-typed"
-import avatar from "../images/rowan_logo.png"
-import * as styles from './styles';
+import React from "react";
 
 
-export const Header = () => {
 
-    const classes = styles.headerStyles();
+class Header extends React.Component{
+    render() {
+        return (
+            <div id="div">
 
-    return (
-        <Box className={classes.typedContainer}>
+                <body id="header">
+                    
+                </body>
 
-            <Grid container justify="center"> 
+                <body id="header_text">
+                    <h1 id="header_h1">Food Recovery Network</h1>
+                    <h1 id="header_h2">Rowan Chapter</h1>
+                    <p id="header_p">We collect and package excess on-campus food and donate/deliver to those in need. Join us in our efforts to reduce food waste and hunger around the Rowan community. </p>
+                </body>
 
-                <Avatar className={classes.avatar} src={avatar} alt="Food Recovery Network" />
-          
-            </Grid>
-            
-            <Typography className={classes.title}  variant="h4">
-                <Typed strings={["__ Pounds", "of Food Saved"]} typedSpeed={40} backSpeed={60}/>
-            </Typography>
+            </div>
+        );
+    }
+}
 
-            <br/>
-            
-            <Typography className={classes.subtitle}  variant="h4">
-                <Typed strings={["Food Recovery Network", "Rowan Chapter"]} typedSpeed={40} backSpeed={60}/>
-            </Typography>
-        
-        </Box>
-    );
-};
 
 export default Header;
-
 

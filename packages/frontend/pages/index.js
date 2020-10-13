@@ -1,35 +1,18 @@
-import React from 'react'
-import HomebarForMobileVersion from './HomebarForMobileVersion'
-import HomebarForNonMobileVersion from './HomebarForNonMobileVersion'
-import Navbar from './Navbar'
-import Header from './Header'
-import NonMobileMenuBar from './nonMobileMenuBar'
-import {
-  isMobile
-} from 'react-device-detect';
+import React from 'react';
+import Navbar from "../components/Navbar";
+import Header from "../components/Header";
+import About_home_page_section from "../components/About_home_page_section";
 
 export const Home = () => {
+ 
+    return (
+      <div>
+        <Navbar/>
+        <Header id="block1"/>
+        <About_home_page_section id="block2"/>
+      </div>
+    );
 
-  if (isMobile) 
-  {
-    return (
-      <div>
-        <HomebarForMobileVersion />
-        <Navbar />
-        <Header />
-      </div>
-    );
-  }
-  else 
-  {
-    return (
-      <div>
-        <HomebarForNonMobileVersion />
-        <NonMobileMenuBar />
-        <Header />
-      </div>
-    );
-  }
 
 };
 

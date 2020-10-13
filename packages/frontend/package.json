@@ -9,11 +9,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "@food-waste/common": "^0.0.0",
+    "@food-waste/components": "^0.0.0",
+    "material-ui": "^0.20.2",
     "next": "9.5.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "@food-waste/common": "^0.0.0",
-    "@food-waste/components": "^0.0.0"
+    "react-dom": "16.13.1"
   },
   "devDependencies": {
     "@types/react": "^16.9.46"

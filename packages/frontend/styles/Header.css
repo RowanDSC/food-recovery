@@ -1,0 +1,38 @@
+#header {
+    background-image: url("../images/IMG_3175.JPG");
+    background-size: cover;    
+ }
+
+ #div {
+   height: 30px;
+ }
+
+ #header_text {
+    flex: 1;
+    justify-content: 'center';
+    align-items: 'center';
+
+    padding-top: 150px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+
+    font-size: 23px;
+
+    color: white;
+ }
+
+ #header_h1 {
+    text-align: center;
+ }
+
+ #header_h2 {
+    text-align: center;
+    
+ }
+
+ #p {
+    text-align: center;
+    justify-content: 'center';
+    align-items: 'center';
+ }
