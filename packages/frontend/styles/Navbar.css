@@ -1,16 +1,7 @@
 #nav {
-    
-    margin: 0 0 3em 0;
     padding: 0;
     background-color: #ffffff;
-  
-  
-    /* From Figma; the placing of the NavBar*/
-    position: absolute;
-    left: 26.39%;
-    right: 3.12%;
-    top: 6.68%;
-    bottom: 83.58%;
+    margin-left: 18%;
 }
 
 #nav li {
