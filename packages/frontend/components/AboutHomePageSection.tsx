@@ -7,9 +7,9 @@ class About_home_page_section extends React.Component{
         return (
             <div>
 
-                <body id="about_image">
+                <div id="about_image">
                     
-                </body>
+                </div>
 
                 <body id="about_text">
                     <h1 id="header_h1">About Us</h1>
